@@ -11,26 +11,55 @@
 <body>
     <main class="every-content">
         <nav>
-            <!-- <div class="mobileScreen"> -->
-                <!-- the menu button -->
-                <!-- <div class="menuButton">
-                    <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 24.75 24.75" xml:space="preserve">
-                        <g>
-                            <path d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2
-                            c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2
-                            c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z"/>
-                        </g>
-                    </svg>
-                </div> -->
+            <div class="mobileScreen">
+
+                <div class="menuShowcase">
+                    <!-- the menu button -->
+                    <button type="button" aria-label="button" id="menuButton">
+                        <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 24.75 24.75" xml:space="preserve">
+                            <g>
+                                <path d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2
+                                c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2
+                                c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z"/>
+                            </g>
+                        </svg>
+                    </button>
+
+
+                    <!-- the logo -->
+                    <div class="newsLogo">
+                        <img src="images/logo-1.png" alt="logo image">
+                    </div>
+                </div>
+
+
 
                 <!-- the dropdown option -->
-                <!-- <div id="sideNav">
+                <div id="sideNav">
+                    <button type="button" aria-label="button" id="closeButton">
+                        <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            width="800px" height="800px" viewBox="0 0 305.002 305.002"
+                            xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M152.502,0.001C68.412,0.001,0,68.412,0,152.501s68.412,152.5,152.502,152.5c84.089,0,152.5-68.411,152.5-152.5
+                                        S236.591,0.001,152.502,0.001z M152.502,280.001C82.197,280.001,25,222.806,25,152.501c0-70.304,57.197-127.5,127.502-127.5
+                                        c70.304,0,127.5,57.196,127.5,127.5C280.002,222.806,222.806,280.001,152.502,280.001z"/>
+                                    <path d="M170.18,152.5l43.13-43.129c4.882-4.882,4.882-12.796,0-17.678c-4.881-4.882-12.796-4.881-17.678,0l-43.13,43.13
+                                        l-43.131-43.131c-4.882-4.881-12.796-4.881-17.678,0c-4.881,4.882-4.881,12.796,0,17.678l43.13,43.13l-43.131,43.131
+                                        c-4.881,4.882-4.881,12.796,0,17.679c2.441,2.44,5.64,3.66,8.839,3.66c3.199,0,6.398-1.221,8.839-3.66l43.131-43.132
+                                        l43.131,43.132c2.441,2.439,5.64,3.66,8.839,3.66s6.398-1.221,8.839-3.66c4.882-4.883,4.882-12.797,0-17.679L170.18,152.5z"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+
                     <a href="#tags">Tags</a>
                     <a href="#">Join Us</a>
                     <a href="#">Popular news</a>
 
                     <div class="searchButton">
-                        <input type="search" name="" id="searchBox" placeholder="search for any pictures here...">
+                        <input type="search" name="" id="searchBox" placeholder="search news">
 
                         <button type="button" class="search" aria-label="button">
                             <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,13 +67,8 @@
                             </svg>
                         </button>
                     </div>
-                </div> -->
-
-                <!-- the logo -->
-                <!-- <div class="newsLogo">
-                    <img src="images/logo-1.png" alt="logo image">
-                </div> -->
-            <!-- </div> -->
+                </div>
+            </div>
 
             <div class="largeScreen">
 
@@ -77,6 +101,166 @@
 
             </div>
         </nav>
+
+        <div class="container">
+            <div class="card-content news1">
+    
+                <div class="text">
+                    <div class="tag-content">
+                        <button class="tag" type="button">POLITICS</button>
+                    </div>
+    
+                    <div id="details">
+                        <h3 class="title"> 
+                            <a href="#">Anti-government protests likely to continue in urban centers.</a> 
+                        </h3>
+    
+                        <div class="publisher_date">
+                            <p class="publisher">BBC News</p>
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"/>
+                            </svg>
+                            <p id="date">SEPTEMBER 18, 2023</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+    
+            <div class="card-content news2">
+                <div class="text">
+                    <div class="tag-content">
+                        <button class="tag" type="button">POLITICS</button>
+                    </div>
+    
+                    <div id="details">
+                        <h3 class="title"> 
+                            <a href="#">Anti-government protests likely to continue in urban centers.</a> 
+                        </h3>
+    
+                        <div class="publisher_date">
+                            <p class="publisher">BBC News</p>
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"/>
+                            </svg>
+                            <p id="date">SEPTEMBER 18, 2023</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            <div class="card-content news3">
+                <div class="text">
+                    <div class="tag-content">
+                        <button class="tag" type="button">POLITICS</button>
+                    </div>
+    
+                    <div id="details">
+                        <h3 class="title"> 
+                            <a href="#">Anti-government protests likely to continue in urban centers.</a> 
+                        </h3>
+    
+                        <div class="publisher_date">
+                            <p class="publisher">BBC News</p>
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"/>
+                            </svg>
+                            <p id="date">SEPTEMBER 18, 2023</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <article id="popularPost">
+            <h3 class="layer-title">Popular Post</h3>
+
+            <div id="post-Display">
+
+                <div id="single-Popular-Post" class="A-Popular-Post">
+                    <div id="popular-post-image">
+                        <img src="https://static.independent.co.uk/2023/02/27/10/bitcoin%20price%20bull%20run%202023.jpg" alt="Bitcoin">
+                    </div>
+
+                    <div id="popular-post-details">
+                        <h4 class="popular-post-headline">
+                            Bitcoin continues to rise.
+                        </h4>
+                        <p id="popular-post-date">FEB 10, 2019</p>
+                    </div>
+                </div>
+
+                <div id="single-Popular-Post" class="A-Popular-Post">
+                    <div id="popular-post-image">
+                        <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/itSEI_qDGm0E/v1/-1x-1.jpg" alt="money">
+                    </div>
+
+                    <div id="popular-post-details">
+                        <h4 class="popular-post-headline">
+                            Financial Inflation Hits Several Countries And Causes Social Crises
+                        </h4>
+                        <p id="popular-post-date">FEB 21, 2019</p>
+                    </div>
+                </div>
+
+                <div id="single-Popular-Post" class="A-Popular-Post">
+                    <div id="popular-post-image">
+                        <img src="https://www.cfr.org/sites/default/files/styles/immersive_image_3_2_desktop_2x/public/image/2019/11/IMF.jpg" alt="gov">
+                    </div>
+
+                    <div id="popular-post-details">
+                        <h4 class="popular-post-headline">
+                            The Government Came Together To Find A Solution To The Crisis
+                        </h4>
+                        <p id="popular-post-date">FEB 11, 2019</p>
+                    </div>
+                </div>
+
+                <div id="single-Popular-Post" class="A-Popular-Post">
+                    <div id="popular-post-image">
+                        <img src="https://www.cafonline.com/media/mufaly3l/iayb867lqo7dhks9k5tt.webp" alt="NFF">
+                    </div>
+
+                    <div id="popular-post-details">
+                        <h4 class="popular-post-headline">
+                            Italy Wins Women's 100 Metres Gold At Tokyo Olympics
+                        </h4>
+                        <p id="popular-post-date">FEB 10, 2019</p>
+                    </div>
+                </div>
+
+                <div id="single-Popular-Post" class="A-Popular-Post">
+                    <div id="popular-post-image">
+                        <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/itSEI_qDGm0E/v1/-1x-1.jpg" alt="money">
+                    </div>
+
+                    <div id="popular-post-details">
+                        <h4 class="popular-post-headline">
+                            Financial Inflation Hits Several Countries And Causes Social Crises
+                        </h4>
+                        <p id="popular-post-date">FEB 21, 2019</p>
+                    </div>
+                </div>
+
+                <div id="single-Popular-Post" class="A-Popular-Post">
+                    <div id="popular-post-image">
+                        <img src="https://www.cfr.org/sites/default/files/styles/immersive_image_3_2_desktop_2x/public/image/2019/11/IMF.jpg" alt="gov">
+                    </div>
+
+                    <div id="popular-post-details">
+                        <h4 class="popular-post-headline">
+                            The Government Came Together To Find A Solution To The Crisis
+                        </h4>
+                        <p id="popular-post-date">FEB 11, 2019</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </article>
     </main>
 
 
